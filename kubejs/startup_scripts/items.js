@@ -5,7 +5,6 @@ StartupEvents.registry('item', event => {
             food.saturation(0)
             food.alwaysEdible(true)
         })
-    
     event.create('wood_residue')
     event.create('stone_stick')
     event.create('stone_gear')

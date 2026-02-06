@@ -59,4 +59,12 @@ ServerEvents.recipes(event => {
         B: '#minecraft:planks',
         C: 'minecraft:stick'
     })
+
+    //木剪刀
+    event.shaped('1x sky_pioneer_legacy:wooden_shears', [
+        ' A ',
+        'A  '
+    ], {
+        A: 'kubejs:wood_brick'
+    })
 })
