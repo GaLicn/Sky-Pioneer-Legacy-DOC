@@ -2,3 +2,4 @@
 !.gitignore
 !kubejs/
 !kubejs/**
+!main.md
