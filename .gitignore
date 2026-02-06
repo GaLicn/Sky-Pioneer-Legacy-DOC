@@ -2,4 +2,7 @@
 !.gitignore
 !kubejs/
 !kubejs/**
+!config/
+!config/ftbquests/
+!config/ftbquests/**
 !main.md

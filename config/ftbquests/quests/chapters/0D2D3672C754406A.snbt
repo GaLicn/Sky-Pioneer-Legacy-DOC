@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0D2D3672C754406A"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/amethyst_cluster"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0D2D3672C754406A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E87AD3494F650F3"
+			rewards: [{
+				id: "04B0D8EF72258317"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "054899A7411E46F7"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E87AD3494F650F3"]
+			id: "0D0BF8DC30011B2E"
+			tasks: [{
+				count: 16L
+				id: "54F52CDCCD62CC1B"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0BF8DC30011B2E"]
+			id: "7149BFC233067C68"
+			tasks: [{
+				id: "0F41F9BA336474D6"
+				item: { count: 1, id: "sky_pioneer_legacy:wooden_shears" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D0BF8DC30011B2E"]
+			id: "7EF186DA977B8FFA"
+			tasks: [
+				{
+					id: "36A1CBAB0E4DD4F3"
+					item: { count: 1, id: "integrateddynamics:squeezer" }
+					type: "item"
+				}
+				{
+					id: "7A8D74E9261B7457"
+					item: { count: 1, id: "integrateddynamics:drying_basin" }
+					type: "item"
+				}
+				{
+					id: "4048AADA9B0B10B7"
+					item: { count: 1, id: "woodenbucket:wooden_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EF186DA977B8FFA"
+				"3BB34DE10F3CD01F"
+			]
+			id: "4137810BED0ABF1C"
+			tasks: [{
+				id: "565518D9B713F968"
+				item: { components: { "bucketlib:fluid": { amount: 1000, id: "minecraft:water" } }, count: 1, id: "woodenbucket:wooden_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"131FCF0A194CDF86"
+				"7EF186DA977B8FFA"
+			]
+			id: "1B8D779DBD1F36E5"
+			tasks: [{
+				id: "0FBA091AC62A65C9"
+				item: { components: { "bucketlib:fluid": { amount: 1000, id: "minecraft:lava" } }, count: 1, id: "woodenbucket:wooden_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4137810BED0ABF1C"
+				"1B8D779DBD1F36E5"
+			]
+			id: "16918FF97DBF182A"
+			tasks: [{
+				count: 16L
+				id: "5DBCD9C6CE794A1E"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7149BFC233067C68"]
+			id: "3BB34DE10F3CD01F"
+			tasks: [{
+				count: 16L
+				id: "7688F628B466B78C"
+				item: { count: 1, id: "minecraft:oak_leaves" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16918FF97DBF182A"]
+			id: "194FCCE52CAC2A50"
+			tasks: [{
+				id: "2824AEF806DB6EEB"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0BF8DC30011B2E"]
+			id: "131FCF0A194CDF86"
+			tasks: [{
+				count: 4L
+				id: "37DA19136BFB8CD7"
+				item: { count: 1, id: "kubejs:wood_residue" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["194FCCE52CAC2A50"]
+			id: "1A147582A909CE87"
+			tasks: [{
+				count: 4L
+				id: "24079157B36477B2"
+				item: { count: 1, id: "sky_pioneer_legacy:grass_ash" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A147582A909CE87"]
+			id: "60A3FF76F8783F6D"
+			tasks: [
+				{
+					id: "2F737FF5E91BA779"
+					item: { count: 1, id: "immersiveengineering:seed" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1DD3D1C2374F9038"
+					item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+					type: "item"
+				}
+				{
+					id: "5E8801992B006A08"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "7468D7EE543E71C6"
+			tasks: [{
+				id: "3050E5A0A5ABE939"
+				item: { components: { "modular_machinery_reborn:machine": "modular_machinery_reborn:primitive_void_collector" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+	]
+}
