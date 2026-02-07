@@ -9,5 +9,8 @@ StartupEvents.registry('item', event => {
     event.create('stone_stick')
     event.create('stone_gear')
     event.create('wood_gear')
+    event.create('wire_mesh_filter')
+    event.create('void_matter')
+    event.create('clean_void_matter')
 })
 

@@ -67,4 +67,26 @@ ServerEvents.recipes(event => {
     ], {
         A: 'kubejs:wood_brick'
     })
+
+    //线过滤网
+    event.shapeless('1x kubejs:wire_mesh_filter', [
+        '9x minecraft:string'
+    ])
+
+    //微型输入总线
+    event.shaped('1x modular_machinery_reborn:inputbus_tiny', [
+        'AAA',
+        'BCB',
+        'AAA'
+    ], {
+        A: '#minecraft:planks',
+        B: 'kubejs:wood_gear',
+        C: 'minecraft:chest'
+    })
+
+    //微型输出总线
+    event.shapeless('1x modular_machinery_reborn:outputbus_tiny', [
+        '1x modular_machinery_reborn:inputbus_tiny'
+    ])
+
 })

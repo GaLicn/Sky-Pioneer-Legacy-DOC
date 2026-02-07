@@ -4,5 +4,8 @@
     "item.kubejs.wood_residue": "Wood Residue",
     "item.kubejs.stone_stick": "Stone Stick",
     "item.kubejs.stone_gear": "Stone Gear",
-    "item.kubejs.wood_gear": "Wood Gear"
+    "item.kubejs.wood_gear": "Wood Gear",
+    "item.kubejs.wire_mesh_filter": "Wire Mesh Filter",
+    "item.kubejs.void_matter": "Void Matter",
+    "item.kubejs.clean_void_matter": "Purified Void Matter"
 }
