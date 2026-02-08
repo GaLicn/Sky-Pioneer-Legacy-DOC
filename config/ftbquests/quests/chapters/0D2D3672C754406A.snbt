@@ -10,7 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0D2D3672C754406A"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,6 +23,7 @@
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "054899A7411E46F7"
 				type: "checkmark"
@@ -187,18 +188,119 @@
 					type: "item"
 				}
 			]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["299DD46E1BE91839"]
+			id: "7468D7EE543E71C6"
+			tasks: [
+				{
+					id: "3050E5A0A5ABE939"
+					item: { components: { "modular_machinery_reborn:machine": "modular_machinery_reborn:primitive_void_collector" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "51FF4C172F3E224D"
+					item: { count: 1, id: "modular_machinery_reborn:outputbus_tiny" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60A3FF76F8783F6D"]
+			id: "299DD46E1BE91839"
+			tasks: [{
+				id: "506C3DC30C2AB62C"
+				item: { count: 1, id: "kubejs:wire_mesh_filter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A147582A909CE87"]
+			id: "7EB83CFEF8C76D4E"
+			tasks: [{
+				id: "4E67523A87A7684B"
+				item: { count: 1, id: "minecraft:short_grass" }
+				type: "item"
+			}]
 			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7468D7EE543E71C6"]
+			id: "2C0DE5408858E604"
+			tasks: [{
+				id: "61EE97B16BEFA26B"
+				item: { count: 1, id: "kubejs:void_matter" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C0DE5408858E604"]
+			id: "4F57C1519A2212D0"
+			tasks: [{
+				id: "1F6CC60E0768FAE8"
+				item: { count: 1, id: "kubejs:clean_void_matter" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F57C1519A2212D0"]
+			id: "11202A1C709E27FB"
+			tasks: [{
+				id: "5D01B7C0E9818B04"
+				item: { count: 1, id: "kubejs:crushed_clean_void_matter" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"11202A1C709E27FB"
+				"7EB83CFEF8C76D4E"
+			]
+			id: "05462320C6AF9D43"
+			size: 3.0d
+			tasks: [{
+				id: "68504F65DEB70606"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BB34DE10F3CD01F"]
+			id: "492A4EB1C01986C2"
+			tasks: [{
+				id: "50A74D9BE2CD9028"
+				item: { count: 1, id: "kubejs:plant_ball" }
+				type: "item"
+			}]
+			x: 4.5d
 			y: -1.0d
 		}
 		{
-			id: "7468D7EE543E71C6"
+			dependencies: ["492A4EB1C01986C2"]
+			id: "50CA4F22F816F66F"
 			tasks: [{
-				id: "3050E5A0A5ABE939"
-				item: { components: { "modular_machinery_reborn:machine": "modular_machinery_reborn:primitive_void_collector" }, count: 1, id: "modular_machinery_reborn:controller" }
+				count: 16L
+				id: "11268ACBE46F9DBC"
+				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.5d
+			x: 6.5d
+			y: -1.0d
 		}
 	]
 }

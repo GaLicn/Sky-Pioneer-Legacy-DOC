@@ -99,4 +99,33 @@ ServerEvents.recipes(event => {
         B: 'kubejs:wire_mesh_filter',
         C: 'kubejs:stone_gear'
     })
+
+    //闪耀纤维
+    event.shaped('1x naturesaura:gold_fiber', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: '#minecraft:leaves',
+        B: 'kubejs:crushed_clean_void_matter',
+        C: 'kubejs:plant_fiber'
+    })
+
+    //烘干池
+    event.shaped('1x integrateddynamics:drying_basin', [
+        'A A',
+        'A A',
+        'AAA'
+    ], {
+        A: 'kubejs:compressed_oak_planks',
+    })
+
+    //植物球
+    event.shaped('1x kubejs:plant_ball', [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: '#minecraft:leaves'
+    })
 })

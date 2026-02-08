@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "115E6A96805BC36E"
+	group: "2DF914C1FE391B4B"
+	icon: {
+		id: "naturesaura:gold_leaf"
+	}
+	id: "115E6A96805BC36E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["05462320C6AF9D43"]
+			id: "5A06C689CE951C6B"
+			tasks: [{
+				count: 32L
+				id: "64BEC39360646B98"
+				item: { count: 1, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A06C689CE951C6B"]
+			id: "291526228038D7C2"
+			tasks: [{
+				count: 32L
+				id: "34106F3756B34A62"
+				item: { count: 1, id: "naturesaura:gold_powder" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+}

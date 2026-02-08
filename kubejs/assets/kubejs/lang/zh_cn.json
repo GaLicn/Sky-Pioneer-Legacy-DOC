@@ -1,5 +1,6 @@
 ﻿{
     "modular_machinery_reborn.primitive_void_collector": "原始虚空物质收集器",
+    "block.kubejs.compressed_oak_planks": "压缩橡木木板",
     "item.kubejs.wood_brick": "木砖",
     "item.kubejs.wood_residue": "木渣",
     "item.kubejs.stone_stick": "石棍",
@@ -7,5 +8,8 @@
     "item.kubejs.wood_gear": "木齿轮",
     "item.kubejs.wire_mesh_filter": "线过滤网",
     "item.kubejs.void_matter": "虚空物质",
-    "item.kubejs.clean_void_matter": "干净的虚空物质"
+    "item.kubejs.clean_void_matter": "干净的虚空物质",
+    "item.kubejs.plant_fiber": "植物纤维",
+    "item.kubejs.crushed_clean_void_matter": "粉碎的干净虚空物质",
+    "item.kubejs.plant_ball": "植物球"
 }

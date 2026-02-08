@@ -12,5 +12,8 @@ StartupEvents.registry('item', event => {
     event.create('wire_mesh_filter')
     event.create('void_matter')
     event.create('clean_void_matter')
+    event.create('plant_fiber')
+    event.create('crushed_clean_void_matter')
+    event.create('plant_ball')
 })
 
