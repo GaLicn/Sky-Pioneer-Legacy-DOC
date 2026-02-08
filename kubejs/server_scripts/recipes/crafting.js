@@ -89,4 +89,14 @@ ServerEvents.recipes(event => {
         '1x modular_machinery_reborn:inputbus_tiny'
     ])
 
+    //原始虚空物质采集器
+    event.shaped('1x modular_machinery_reborn:controller[modular_machinery_reborn:machine="modular_machinery_reborn:primitive_void_collector"]', [
+        'AAA',
+        'CBC',
+        'AAA'
+    ], {
+        A: 'kubejs:compressed_oak_planks',
+        B: 'kubejs:wire_mesh_filter',
+        C: 'kubejs:stone_gear'
+    })
 })
