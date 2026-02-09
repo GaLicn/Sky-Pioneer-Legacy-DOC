@@ -13,4 +13,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'naturesaura:gold_brick' })//黄金石砖
     event.remove({ id: 'naturesaura:altar/infused_iron' })//灌注铁锭
     event.remove({ output: 'minecraft:smoker' })//烟熏炉
+    event.remove({ output: 'mekanism:basic_fluid_tank' })//基础流体储罐
+    event.remove({ output: 'naturesaura:conversion_catalyst' })//嬗变催化剂
+    event.remove({ output: 'naturesaura:calling_spirit' })//呼唤之魂
+    event.remove({ output: 'naturesaura:offering_table' })//祭祀台
+    event.remove({ output: 'naturesaura:tainted_gold' })//污染黄金
 })

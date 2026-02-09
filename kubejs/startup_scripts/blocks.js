@@ -12,4 +12,11 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:mineable/pickaxe')
         .requiresTool(true)
 
+    // 下界催化剂
+    event.create('nether_catalyst')
+        .hardness(2.0)
+        .resistance(2.0)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .requiresTool(true)
+
 })

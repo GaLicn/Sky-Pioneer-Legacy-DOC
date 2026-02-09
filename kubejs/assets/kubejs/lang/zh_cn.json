@@ -2,6 +2,7 @@
     "modular_machinery_reborn.primitive_void_collector": "原始虚空物质收集器",
     "block.kubejs.compressed_oak_planks": "压缩橡木木板",
     "block.kubejs.ingot_mold_catalyst": "锭模具催化剂",
+    "block.kubejs.nether_catalyst": "下界催化剂",
     "item.kubejs.wood_brick": "木砖",
     "item.kubejs.wood_residue": "木渣",
     "item.kubejs.stone_stick": "石棍",
@@ -16,6 +17,6 @@
     "item.kubejs.void_matter_ingot": "虚空物质锭",
     "item.kubejs.crushed_void_matter": "粉碎的虚空物质",
     "item.kubejs.faded_infused_iron": "褪色的灌注铁锭",
-    "faded_tainted_gold": "褪色的污浊黄金",
+    "item.kubejs.faded_tainted_gold": "褪色的污浊黄金",
     "item.kubejs.clean_void_matter_ingot": "干净的虚空物质锭"
 }

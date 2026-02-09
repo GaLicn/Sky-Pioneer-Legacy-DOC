@@ -3,4 +3,6 @@ ServerEvents.recipes(event => {
     event.smelting('4x sky_pioneer_legacy:grass_ash', 'kubejs:wood_brick')
     // 烟熏炉烧制铁锭
     event.smoking('1x minecraft:iron_ingot', 'kubejs:faded_infused_iron')
+    //金锭
+    event.smoking('1x minecraft:gold_ingot', 'kubejs:faded_tainted_gold')
 })

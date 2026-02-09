@@ -276,4 +276,34 @@
         }
     })
 
+    //褪色的污染黄金
+    event.custom({
+        type: 'integrateddynamics:drying_basin',
+        input_item: {
+            item: 'naturesaura:tainted_gold'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 100,
+        output_item: {
+            id: 'kubejs:faded_tainted_gold'
+        }
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'naturesaura:tainted_gold'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 40,
+        output_item: {
+            id: 'kubejs:faded_tainted_gold'
+        }
+    })
+
 })

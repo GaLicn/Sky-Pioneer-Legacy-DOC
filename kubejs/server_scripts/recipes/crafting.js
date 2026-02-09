@@ -156,4 +156,53 @@ ServerEvents.recipes(event => {
         B: 'minecraft:furnace',
         C: 'kubejs:wood_gear'
     })
+
+    //基础流体储罐
+    event.shaped('1x mekanism:basic_fluid_tank', [
+        'ABA',
+        'B B',
+        'ABA'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'minecraft:glass',
+    })
+
+    //呼唤之魂
+    event.shaped('4x naturesaura:calling_spirit', [
+        ' A ',
+        'CBC',
+        ' A '
+    ], {
+        A: 'minecraft:bread',
+        B: 'naturesaura:infused_iron',
+        C: 'kubejs:void_matter_ingot'
+    })
+
+    //祭祀台
+    event.shaped('1x naturesaura:offering_table', [
+        'CDC',
+        ' C ',
+        'ABA'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'minecraft:iron_block',
+        C: '#c:stones',
+        D: 'naturesaura:infused_iron_block'
+    })
+
+    //甘蔗
+    event.shaped('1x minecraft:sugar_cane', [
+        ' A ',
+        ' B ',
+        ' A '
+    ], {
+        A: 'kubejs:plant_ball',
+        B: 'kubejs:crushed_void_matter'
+    })
+
+    //下界岩
+    event.shapeless('1x minecraft:netherrack', [
+        '1x minecraft:cobblestone',
+        '1x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
+    ])
 })
