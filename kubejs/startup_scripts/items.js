@@ -15,5 +15,7 @@ StartupEvents.registry('item', event => {
     event.create('plant_fiber')
     event.create('crushed_clean_void_matter')
     event.create('plant_ball')
+    event.create('void_matter_ingot')
+    event.create('crushed_void_matter')
 })
 

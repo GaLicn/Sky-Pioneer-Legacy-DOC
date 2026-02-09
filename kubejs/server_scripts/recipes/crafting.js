@@ -128,4 +128,21 @@ ServerEvents.recipes(event => {
     ], {
         A: '#minecraft:leaves'
     })
+
+    //木基座
+    event.shaped('1x naturesaura:wood_stand', [
+        ' A ',
+        'ABA',
+        ' A '
+    ], {
+        A: 'naturesaura:gold_powder',
+        B: 'minecraft:stripped_oak_log'
+    })
+
+    //黄金石砖
+    event.shapeless('1x naturesaura:gold_brick', [
+        '1x minecraft:stone_bricks',
+        '1x naturesaura:gold_fiber',
+        '1x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
+    ])
 })

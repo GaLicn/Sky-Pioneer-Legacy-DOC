@@ -1,5 +1,7 @@
 {
     "modular_machinery_reborn.primitive_void_collector": "Primitive Void Matter Collector",
+    "block.kubejs.compressed_oak_planks": "Compressed Oak Planks",
+    "block.kubejs.ingot_mold_catalyst": "Ingot Mold Cataly",
     "item.kubejs.wood_brick": "Wood Brick",
     "item.kubejs.wood_residue": "Wood Residue",
     "item.kubejs.stone_stick": "Stone Stick",
@@ -10,5 +12,7 @@
     "item.kubejs.clean_void_matter": "Purified Void Matter",
     "item.kubejs.plant_fiber": "Plant Fiber",
     "item.kubejs.crushed_clean_void_matter": "Crushed Purified Void Matter",
-    "item.kubejs.plant_ball": "Plant Ball"
+    "item.kubejs.plant_ball": "Plant Ball",
+    "item.kubejs.void_matter_ingot": "Void Matter Ingot",
+    "item.kubejs.crushed_void_matter": "Crushed Void Matter"
 }

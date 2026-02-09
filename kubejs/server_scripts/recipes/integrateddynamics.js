@@ -85,6 +85,21 @@
         duration: 40
     })
 
+    //粉碎的虚空物质
+    event.custom({
+        type: 'integrateddynamics:squeezer',
+        input_item: {
+            item: 'kubejs:void_matter'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'kubejs:crushed_void_matter'
+                }
+            }
+        ]
+    })
+
     // 木砖烧制草木灰
     event.smelting('4x sky_pioneer_legacy:grass_ash', 'kubejs:wood_brick')
 
