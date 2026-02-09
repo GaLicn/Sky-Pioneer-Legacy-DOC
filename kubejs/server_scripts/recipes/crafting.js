@@ -205,4 +205,14 @@ ServerEvents.recipes(event => {
         '1x minecraft:cobblestone',
         '1x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
     ])
+
+    //灵气魔杖
+    event.shaped('1x kubejs:aura_wand', [
+        '  A',
+        ' B ',
+        'B  '
+    ], {
+        A: 'naturesaura:aura_cache[naturesaura:aura_data={aura_amount:400000}]',
+        B: 'minecraft:stick',
+    })
 })

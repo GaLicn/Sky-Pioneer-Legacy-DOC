@@ -307,3 +307,17 @@
     })
 
 })
+
+BlockEvents.rightClicked(event => {
+    const { block, item, level } = event
+
+    if (level.isClientSide()) return
+    if (block.id !== 'naturesaura:ancient_leaves') return
+    if (item.id !== 'kubejs:aura_wand') return
+
+    // 消耗方块
+    block.set('minecraft:air')
+
+    // 为区块添加灵气
+    AuraChunk.storeAura(level, block.pos, 1000)
+})

@@ -20,5 +20,6 @@ StartupEvents.registry('item', event => {
     event.create('faded_infused_iron')
     event.create('faded_tainted_gold')
     event.create('clean_void_matter_ingot')
+    event.create('aura_wand')
 })
 
