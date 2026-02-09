@@ -145,4 +145,15 @@ ServerEvents.recipes(event => {
         '1x naturesaura:gold_fiber',
         '1x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
     ])
+
+    //烟熏炉
+    event.shaped('1x minecraft:smoker', [
+        'ACA',
+        'CBC',
+        'ACA'
+    ], {
+        A: 'kubejs:wood_brick',
+        B: 'minecraft:furnace',
+        C: 'kubejs:wood_gear'
+    })
 })

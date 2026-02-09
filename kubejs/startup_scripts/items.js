@@ -17,5 +17,6 @@ StartupEvents.registry('item', event => {
     event.create('plant_ball')
     event.create('void_matter_ingot')
     event.create('crushed_void_matter')
+    event.create('faded_infused_iron')
 })
 

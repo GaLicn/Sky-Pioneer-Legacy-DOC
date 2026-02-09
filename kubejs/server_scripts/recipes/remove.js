@@ -12,4 +12,5 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'naturesaura:nature_altar' })//自然祭坛
     event.remove({ output: 'naturesaura:gold_brick' })//黄金石砖
     event.remove({ id: 'naturesaura:altar/infused_iron' })//灌注铁锭
+    event.remove({ output: 'minecraft:smoker' })//烟熏炉
 })

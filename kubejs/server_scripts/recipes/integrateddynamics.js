@@ -10,6 +10,17 @@
             amount: 250
         }
     })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'kubejs:wood_residue'
+        },
+        output_fluid: {
+            id: 'minecraft:lava',
+            amount: 250
+        },
+        duration: 40
+    })
 
     // 水 - 挤压机
     event.custom({
@@ -21,6 +32,17 @@
             id: 'minecraft:water',
             amount: 250
         }
+    })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'minecraft:oak_leaves'
+        },
+        output_fluid: {
+            id: 'minecraft:water',
+            amount: 250
+        },
+        duration: 40
     })
 
     // 植物纤维
@@ -37,6 +59,20 @@
             }
         ]
     })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'minecraft:short_grass'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'kubejs:plant_fiber'
+                }
+            }
+        ],
+        duration: 40
+    })
 
     //粉碎的干净虚空物质
     event.custom({
@@ -51,6 +87,20 @@
                 }
             }
         ]
+    })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'kubejs:clean_void_matter'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'kubejs:crushed_clean_void_matter'
+                }
+            }
+        ],
+        duration: 40
     })
 
     //金叶粉
@@ -68,10 +118,39 @@
             }
         ]
     })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'naturesaura:gold_leaf'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'naturesaura:gold_powder',
+                    count: 4
+                }
+            }
+        ],
+        duration: 40
+    })
 
     //泥土
     event.custom({
         type: 'integrateddynamics:squeezer',
+        input_item: {
+            item: 'kubejs:plant_ball'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'minecraft:dirt'
+                }
+            }
+        ],
+        duration: 40
+    })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
         input_item: {
             item: 'kubejs:plant_ball'
         },
@@ -99,9 +178,21 @@
             }
         ]
     })
+    event.custom({
+        type: "integrateddynamics:mechanical_squeezer",
+        input_item: {
+            item: 'kubejs:void_matter'
+        },
+        output_items: [
+            {
+                item: {
+                    id: 'kubejs:crushed_void_matter'
+                }
+            }
+        ],
+        duration: 40
+    })
 
-    // 木砖烧制草木灰
-    event.smelting('4x sky_pioneer_legacy:grass_ash', 'kubejs:wood_brick')
 
     //干净虚空物质 - 干燥盆
     event.custom({
@@ -118,6 +209,20 @@
             id: 'kubejs:clean_void_matter'
         }
     })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'kubejs:void_matter'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 40,
+        output_item: {
+            id: 'kubejs:clean_void_matter'
+        }
+    })
 
     //沙子 - 干燥盆
     event.custom({
@@ -129,6 +234,46 @@
             id: 'minecraft:sand'
         },
         duration: 40
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'minecraft:dirt'
+        },
+        output_item: {
+            id: 'minecraft:sand'
+        },
+        duration: 40
+    })
+
+    //褪色的灌注铁
+    event.custom({
+        type: 'integrateddynamics:drying_basin',
+        input_item: {
+            item: 'naturesaura:infused_iron'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 100,
+        output_item: {
+            id: 'kubejs:faded_infused_iron'
+        }
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'naturesaura:infused_iron'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 40,
+        output_item: {
+            id: 'kubejs:faded_infused_iron'
+        }
     })
 
 })
