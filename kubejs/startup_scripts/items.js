@@ -19,5 +19,6 @@ StartupEvents.registry('item', event => {
     event.create('crushed_void_matter')
     event.create('faded_infused_iron')
     event.create('faded_tainted_gold')
+    event.create('clean_void_matter_ingot')
 })
 

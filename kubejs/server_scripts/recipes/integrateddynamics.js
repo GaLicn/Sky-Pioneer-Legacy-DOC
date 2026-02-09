@@ -204,7 +204,7 @@
             id: 'minecraft:water',
             amount: 1000
         },
-        duration: 200,
+        duration: 100,
         output_item: {
             id: 'kubejs:clean_void_matter'
         }
