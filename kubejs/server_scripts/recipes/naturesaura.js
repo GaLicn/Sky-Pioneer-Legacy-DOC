@@ -18,4 +18,6 @@ ServerEvents.recipes((event) => {
     naturesaura.tree_ritual('kubejs:nether_catalyst', ['naturesaura:infused_iron_block', 'naturesaura:gold_leaf', 'minecraft:netherrack', 'naturesaura:sky_ingot_block', 'minecraft:nether_brick', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'], 'oak_sapling', 200)
     //污染黄金
     naturesaura.altar('naturesaura:tainted_gold', 'kubejs:clean_void_matter_ingot', 1000, 40, 'kubejs:nether_catalyst')
+    //干净的虚空物质粉末
+    naturesaura.altar('kubejs:clean_void_matter_dust', 'kubejs:clean_void_matter', 1000, 40, 'naturesaura:crumbling_catalyst')
 })

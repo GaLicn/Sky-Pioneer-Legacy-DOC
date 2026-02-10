@@ -22,5 +22,6 @@ StartupEvents.registry('item', event => {
     event.create('clean_void_matter_ingot')
     event.create('aura_wand')
     event.create('naturesaura_core')
+    event.create('clean_void_matter_dust')
 })
 

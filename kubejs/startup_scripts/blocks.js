@@ -19,4 +19,11 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:mineable/pickaxe')
         .requiresTool(true)
 
+    // 干净虚空物质块
+    event.create('clean_void_matter_block')
+        .hardness(2.0)
+        .resistance(2.0)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .requiresTool(true)
+
 })

@@ -204,7 +204,7 @@
             id: 'minecraft:water',
             amount: 1000
         },
-        duration: 100,
+        duration: 40,
         output_item: {
             id: 'kubejs:clean_void_matter'
         }
@@ -218,7 +218,7 @@
             id: 'minecraft:water',
             amount: 1000
         },
-        duration: 40,
+        duration: 10,
         output_item: {
             id: 'kubejs:clean_void_matter'
         }
@@ -306,18 +306,33 @@
         }
     })
 
-})
-
-BlockEvents.rightClicked(event => {
-    const { block, item, level } = event
-
-    if (level.isClientSide()) return
-    if (block.id !== 'naturesaura:ancient_leaves') return
-    if (item.id !== 'kubejs:aura_wand') return
-
-    // 消耗方块
-    block.set('minecraft:air')
-
-    // 为区块添加灵气
-    AuraChunk.storeAura(level, block.pos, 1000)
+    //干净的虚空物质块 - 干燥盆
+    event.custom({
+        type: 'integrateddynamics:drying_basin',
+        input_item: {
+            item: 'kubejs:clean_void_matter_block'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 100,
+        output_item: {
+            id: 'kubejs:clean_void_matter'
+        }
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'kubejs:clean_void_matter_block'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 40,
+        output_item: {
+            id: 'kubejs:clean_void_matter'
+        }
+    })
 })
