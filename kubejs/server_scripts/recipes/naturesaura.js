@@ -19,5 +19,5 @@ ServerEvents.recipes((event) => {
     //污染黄金
     naturesaura.altar('naturesaura:tainted_gold', 'kubejs:clean_void_matter_ingot', 1000, 40, 'kubejs:nether_catalyst')
     //干净的虚空物质粉末
-    naturesaura.altar('kubejs:clean_void_matter_dust', 'kubejs:clean_void_matter', 1000, 40, 'naturesaura:crumbling_catalyst')
+    naturesaura.altar('kubejs:clean_void_matter_dust', 'kubejs:clean_void_matter', 1000, 40, 'naturesaura:crushing_catalyst')
 })

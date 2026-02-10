@@ -2,7 +2,7 @@ BlockEvents.rightClicked(event => {
     const { block, item, level } = event
 
     if (level.isClientSide()) return
-    if (block.id !== 'naturesaura:ancient_leaves') return
+    if (block.id !== 'kubejs:clean_void_matter_block') return
     if (item.id !== 'kubejs:aura_wand') return
 
     // 消耗方块

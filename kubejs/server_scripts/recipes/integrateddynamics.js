@@ -310,21 +310,7 @@
     event.custom({
         type: 'integrateddynamics:drying_basin',
         input_item: {
-            item: 'kubejs:clean_void_matter_block'
-        },
-        input_fluid: {
-            id: 'minecraft:water',
-            amount: 1000
-        },
-        duration: 100,
-        output_item: {
-            id: 'kubejs:clean_void_matter'
-        }
-    })
-    event.custom({
-        type: 'integrateddynamics:mechanical_drying_basin',
-        input_item: {
-            item: 'kubejs:clean_void_matter_block'
+            item: 'kubejs:clean_void_matter_dust'
         },
         input_fluid: {
             id: 'minecraft:water',
@@ -332,7 +318,21 @@
         },
         duration: 40,
         output_item: {
-            id: 'kubejs:clean_void_matter'
+            id: 'kubejs:clean_void_matter_block'
+        }
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'kubejs:clean_void_matter_dust'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        duration: 10,
+        output_item: {
+            id: 'kubejs:clean_void_matter_block'
         }
     })
 })
