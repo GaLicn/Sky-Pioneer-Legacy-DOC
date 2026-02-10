@@ -1,7 +1,9 @@
 {
     "modular_machinery_reborn.primitive_void_collector": "Primitive Void Matter Collector",
+    "modular_machinery_reborn.monster_loot_generator": "Monster Loot Generator",
     "block.kubejs.compressed_oak_planks": "Compressed Oak Planks",
     "block.kubejs.ingot_mold_catalyst": "Ingot Mold Cataly",
+    "block.kubejs.clean_void_matter_block": "Purified Void Matter Block",
     "block.kubejs.nether_catalyst": "Nether Catalyst",
     "item.kubejs.wood_brick": "Wood Brick",
     "item.kubejs.wood_residue": "Wood Residue",
@@ -22,5 +24,6 @@
     "item.kubejs.aura_wand": "Aura Wand",
     "item.kubejs.naturesaura_core": "Nature's Aura Core",
     "item.kubejs.clean_void_matter_dust": "Purified Void Matter Dust",
-    "item.kubejs.clean_void_matter_block": "Purified Void Matter Block"
+    "item.kubejs.mixed_powder": "Mixed Powder",
+    "item.kubejs.void_matter_dust": "Void Matter Dust"
 }

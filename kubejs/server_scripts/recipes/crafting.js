@@ -83,6 +83,9 @@ ServerEvents.recipes(event => {
         B: 'kubejs:wood_gear',
         C: 'minecraft:chest'
     })
+    event.shapeless('1x modular_machinery_reborn:inputbus_tiny', [
+        '1x modular_machinery_reborn:outputbus_tiny'
+    ])
 
     //微型输出总线
     event.shapeless('1x modular_machinery_reborn:outputbus_tiny', [
@@ -215,4 +218,138 @@ ServerEvents.recipes(event => {
         A: 'naturesaura:aura_cache[naturesaura:aura_data={aura_amount:400000}]',
         B: 'minecraft:stick',
     })
+
+    //混合粉末
+    event.shapeless('1x kubejs:mixed_powder', [
+        'kubejs:void_matter_dust',
+        'naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:ore_spawn"}]',
+        'naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:plant_boost"}]',
+        'naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:nether_grass"}]',
+        'naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:cache_recharge"}]'
+    ])
+
+    //红石粉
+    event.shapeless('1x minecraft:redstone', [
+        'kubejs:mixed_powder',
+        '#c:dyes/red'
+    ])
+
+    //萤石粉
+    event.shapeless('1x minecraft:glowstone_dust', [
+        'kubejs:mixed_powder',
+        '#c:dyes/yellow'
+    ])
+
+    //灵气缓存
+    event.shaped('1x naturesaura:aura_cache', [
+        'ADA',
+        'BCB',
+        'ADA'
+    ], {
+        A: 'naturesaura:infused_stone',
+        B: 'kubejs:clean_void_matter_dust',
+        C: 'minecraft:bucket',
+        D: 'kubejs:void_matter_dust'
+    })
+
+    //方块放置器
+    event.shaped('1x actuallyadditions:placer', [
+        'AAA',
+        'ABC',
+        'AAA'
+    ], {
+        A: '#c:cobblestones',
+        B: 'minecraft:redstone_block',
+        C: 'naturesaura:sky_ingot'
+    })
+
+    //自动点击器
+    event.shaped('1x clickmachine:click_machine', [
+        'AAA',
+        'ABA',
+        'ACA'
+    ], {
+        A: '#c:cobblestones',
+        B: 'minecraft:redstone',
+        C: 'naturesaura:sky_ingot'
+    })
+
+    //小型输入总线
+    event.shaped('1x modular_machinery_reborn:inputbus_small', [
+        ' A ',
+        'BCB',
+        'DBD'
+    ], {
+        A: 'minecraft:hopper',
+        B: 'naturesaura:sky_ingot',
+        C: 'modular_machinery_reborn:inputbus_tiny',
+        D: 'minecraft:chest'
+    })
+    event.shapeless('1x modular_machinery_reborn:inputbus_small', [
+        '1x modular_machinery_reborn:outputbus_small'
+    ])
+
+    //小型输出总线
+    event.shapeless('1x modular_machinery_reborn:outputbus_small', [
+        '1x modular_machinery_reborn:inputbus_small'
+    ])
+
+    //中型输入总线
+    event.shaped('1x modular_machinery_reborn:inputbus_normal', [
+        ' A ',
+        'BCB',
+        'DBD'
+    ], {
+        A: 'naturesaura:grated_chute',
+        B: 'naturesaura:sky_ingot',
+        C: 'modular_machinery_reborn:inputbus_small',
+        D: 'minecraft:chest'
+    })
+    event.shapeless('1x modular_machinery_reborn:inputbus_normal', [
+        '1x modular_machinery_reborn:outputbus_normal'
+    ])
+
+    //中型输出总线
+    event.shapeless('1x modular_machinery_reborn:outputbus_normal', [
+        '1x modular_machinery_reborn:inputbus_normal'
+    ])
+
+    //自然灵气核心
+    event.shaped('1x kubejs:naturesaura_core', [
+        'ABA',
+        'CFD',
+        'AEA'
+    ], {
+        A: 'naturesaura:gold_leaf',
+        B: 'naturesaura:token_euphoria',
+        C: 'naturesaura:token_grief',
+        D: 'naturesaura:token_rage',
+        E: 'naturesaura:token_terror',
+        F: 'naturesaura:sky_ingot'
+    })
+
+    //怪物战利品生成器
+    event.shaped('1x modular_machinery_reborn:controller[modular_machinery_reborn:machine="modular_machinery_reborn:monster_loot_generator"]', [
+        'AAA',
+        'BCD',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'minecraft:wooden_sword',
+        C: 'minecraft:stone_sword',
+        D: 'minecraft:iron_sword'
+    })
+
+    //灵气发电机
+    event.shaped('sky_pioneer_legacy:aura_power', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'naturesaura:infused_stone',
+        B: 'minecraft:redstone',
+        C: 'kubejs:naturesaura_core',
+    }
+    )
+
 })

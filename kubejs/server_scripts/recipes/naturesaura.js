@@ -20,4 +20,16 @@ ServerEvents.recipes((event) => {
     naturesaura.altar('naturesaura:tainted_gold', 'kubejs:clean_void_matter_ingot', 1000, 40, 'kubejs:nether_catalyst')
     //干净的虚空物质粉末
     naturesaura.altar('kubejs:clean_void_matter_dust', 'kubejs:clean_void_matter', 1000, 40, 'naturesaura:crushing_catalyst')
+    //慷慨之粉
+    naturesaura.tree_ritual('32x naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:ore_spawn"}]', ['naturesaura:gold_powder', 'naturesaura:gold_powder', 'minecraft:iron_block', 'minecraft:gold_block'], 'oak_sapling', 100)
+    //虚空物质粉
+    naturesaura.altar('kubejs:void_matter_dust', 'kubejs:void_matter', 1000, 40, 'naturesaura:crushing_catalyst')
+    //粉碎催化剂
+    naturesaura.tree_ritual('naturesaura:crushing_catalyst', ['naturesaura:infused_stone', 'minecraft:flint', 'naturesaura:gold_brick', 'minecraft:iron_ingot', 'minecraft:gold_ingot'], 'oak_sapling', 100)
+    //羽毛
+    naturesaura.altar('minecraft:feather', 'minecraft:egg', 1000, 20, 'naturesaura:conversion_catalyst')
+    //愤怒印记
+    naturesaura.tree_ritual('naturesaura:token_anger', ['minecraft:ender_pearl', 'naturesaura:gold_leaf', 'minecraft:gunpowder', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]', 'minecraft:ghast_tear', 'minecraft:spider_eye'], 'oak_sapling', 100)
+    //悲伤印记
+    naturesaura.tree_ritual('naturesaura:token_sorrow', ['minecraft:bone', 'naturesaura:gold_leaf', 'minecraft:rotten_flesh', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]', 'minecraft:sugar', 'minecraft:ghast_tear'], 'oak_sapling', 100)
 })

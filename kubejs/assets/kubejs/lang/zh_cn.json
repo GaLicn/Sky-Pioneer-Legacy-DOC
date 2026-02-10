@@ -1,8 +1,10 @@
 ﻿{
     "modular_machinery_reborn.primitive_void_collector": "原始虚空物质收集器",
+    "modular_machinery_reborn.monster_loot_generator": "怪物战利品生成器",
     "block.kubejs.compressed_oak_planks": "压缩橡木木板",
     "block.kubejs.ingot_mold_catalyst": "锭模具催化剂",
     "block.kubejs.nether_catalyst": "下界催化剂",
+    "block.kubejs.clean_void_matter_block": "干净的虚空物质块",
     "item.kubejs.wood_brick": "木砖",
     "item.kubejs.wood_residue": "木渣",
     "item.kubejs.stone_stick": "石棍",
@@ -22,5 +24,6 @@
     "item.kubejs.aura_wand": "灵气魔杖",
     "item.kubejs.naturesaura_core": "自然灵气核心",
     "item.kubejs.clean_void_matter_dust": "干净的虚空物质粉末",
-    "item.kubejs.clean_void_matter_block": "干净的虚空物质块"
+    "item.kubejs.mixed_powder": "混合粉末",
+    "item.kubejs.void_matter_dust": "虚空物质粉末"
 }

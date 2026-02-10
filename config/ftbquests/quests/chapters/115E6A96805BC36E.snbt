@@ -13,13 +13,14 @@
 		{
 			dependencies: ["05462320C6AF9D43"]
 			id: "5A06C689CE951C6B"
+			size: 2.0d
 			tasks: [{
 				count: 32L
 				id: "64BEC39360646B98"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -376,6 +377,307 @@
 			}]
 			x: 28.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"558A4AF6AE782B1F"
+				"11B28CB1FCB0CBBF"
+			]
+			id: "275D08A7CECB3A3D"
+			tasks: [{
+				id: "4E0D91A1B1CA25C4"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["70B4586313C04668"]
+			id: "42222F3089A9B7C9"
+			tasks: [{
+				id: "40142F76CCB2C896"
+				item: { count: 1, id: "kubejs:clean_void_matter_dust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["42222F3089A9B7C9"]
+			id: "0B912280ED96CD3E"
+			tasks: [{
+				id: "5BBABF34A2F79733"
+				item: { count: 1, id: "kubejs:clean_void_matter_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["275D08A7CECB3A3D"]
+			id: "650AE1B9E0B8821F"
+			tasks: [{
+				id: "4C279A326CC97B27"
+				item: { count: 1, id: "naturesaura:aura_cache" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["650AE1B9E0B8821F"]
+			hide_lock_icon: true
+			id: "1A4A12EBE8AEE967"
+			tasks: [{
+				id: "67A279F6468E5D68"
+				item: { components: { "naturesaura:aura_data": { aura_amount: 400000 } }, count: 1, id: "naturesaura:aura_cache" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A4A12EBE8AEE967"]
+			id: "70B4586313C04668"
+			tasks: [{
+				id: "4A77C9A5D34DFC6D"
+				item: { count: 1, id: "kubejs:aura_wand" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["275D08A7CECB3A3D"]
+			id: "0D62FD71398D18FA"
+			tasks: [
+				{
+					id: "7559FA761A4A1D97"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:ore_spawn" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+				{
+					id: "0A4A1C0F3AA6E72C"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:plant_boost" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+				{
+					id: "6DC0ED4C8AC47E06"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:nether_grass" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+				{
+					id: "4732FFB854A7C722"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:cache_recharge" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+				{
+					id: "66C3558C8A09E555"
+					item: { count: 1, id: "kubejs:void_matter_dust" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D62FD71398D18FA"]
+			id: "0D999CFA6A01E343"
+			tasks: [{
+				id: "7AD1B57F3168E134"
+				item: { count: 1, id: "kubejs:mixed_powder" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D999CFA6A01E343"]
+			id: "7C3FB596ACA059E5"
+			tasks: [{
+				id: "693D679057B06D73"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D999CFA6A01E343"]
+			id: "6BDFA8277C84CD77"
+			size: 2.0d
+			tasks: [{
+				id: "5DAE662BE28E4D11"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0B912280ED96CD3E"
+				"6BDFA8277C84CD77"
+			]
+			id: "09CA9C37364F5B5F"
+			tasks: [
+				{
+					id: "2C0FD4240DF8AE0E"
+					item: { count: 1, id: "clickmachine:click_machine" }
+					type: "item"
+				}
+				{
+					id: "2FC87BEEFE2589B5"
+					item: { count: 1, id: "actuallyadditions:placer" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7CDC907DB97221E9"]
+			id: "2C2F017CB30BE099"
+			size: 2.0d
+			tasks: [{
+				advancement: "naturesaura:positive_imbalance"
+				criterion: ""
+				id: "7DE1C0F643167F60"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["09CA9C37364F5B5F"]
+			id: "7CDC907DB97221E9"
+			tasks: [{
+				id: "7F18F606ECEBC8B1"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6BDFA8277C84CD77"]
+			id: "104B914050099DFF"
+			tasks: [
+				{
+					id: "345D5491C99AC3E8"
+					item: { components: { "modular_machinery_reborn:machine": "modular_machinery_reborn:monster_loot_generator" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "5B16C512390A4EC1"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "5595BFDA3013AEF1"
+					item: { count: 1, id: "naturesaura:sky_ingot_block" }
+					type: "item"
+				}
+				{
+					id: "0AD2A3CC0895EC5C"
+					item: { count: 1, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+				{
+					id: "17D6C85A04E2A59E"
+					item: { count: 1, id: "modular_machinery_reborn:inputbus_small" }
+					type: "item"
+				}
+				{
+					id: "74B869C54B9BE7DE"
+					item: { count: 1, id: "modular_machinery_reborn:outputbus_small" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["104B914050099DFF"]
+			id: "54663AB00AE7B5B9"
+			tasks: [
+				{
+					id: "56BDCD674473EB2E"
+					item: { count: 1, id: "naturesaura:token_joy" }
+					type: "item"
+				}
+				{
+					id: "3B4503BB6E38C371"
+					item: { count: 1, id: "naturesaura:token_sorrow" }
+					type: "item"
+				}
+				{
+					id: "21EEB2D04D2E779D"
+					item: { count: 1, id: "naturesaura:token_anger" }
+					type: "item"
+				}
+				{
+					id: "7E147690DF2D7E07"
+					item: { count: 1, id: "naturesaura:token_fear" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["54663AB00AE7B5B9"]
+			id: "03286A39A3D07343"
+			tasks: [
+				{
+					id: "68586310C1413E6F"
+					item: { count: 1, id: "naturesaura:token_euphoria" }
+					type: "item"
+				}
+				{
+					id: "4F494D2704D31540"
+					item: { count: 1, id: "naturesaura:token_grief" }
+					type: "item"
+				}
+				{
+					id: "7AF62A8D98C02ACD"
+					item: { count: 1, id: "naturesaura:token_rage" }
+					type: "item"
+				}
+				{
+					id: "06460E3C3C5FE36C"
+					item: { count: 1, id: "naturesaura:token_terror" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["03286A39A3D07343"]
+			id: "4A4B6CF7AF2D73EB"
+			size: 1.5d
+			tasks: [{
+				id: "769474DAD67B8868"
+				item: { count: 1, id: "kubejs:naturesaura_core" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A4B6CF7AF2D73EB"]
+			id: "62BDE390F78517CA"
+			size: 3.0d
+			tasks: [{
+				id: "1DB5860DC3493155"
+				item: { count: 1, id: "sky_pioneer_legacy:aura_power" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 1.5d
 		}
 	]
 }
