@@ -671,11 +671,31 @@
 			dependencies: ["4A4B6CF7AF2D73EB"]
 			id: "62BDE390F78517CA"
 			size: 3.0d
-			tasks: [{
-				id: "1DB5860DC3493155"
-				item: { count: 1, id: "sky_pioneer_legacy:aura_power" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DB5860DC3493155"
+					item: { count: 1, id: "sky_pioneer_legacy:aura_power" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1DED7797C81E9DC1"
+					item: { count: 1, id: "naturesaura:ancient_planks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2013E221C51C6D0D"
+					item: { count: 1, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0A539571BE776B1E"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
 			x: 32.5d
 			y: 1.5d
 		}

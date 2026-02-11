@@ -1,7 +1,7 @@
 MMREvents.machines(event => {
     // 怪物战利品生成器
     event.create("modular_machinery_reborn:monster_loot_generator")
-        .color("#00000052")
+        .color("#FF000000")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([["aaa", "cab", "aaa"], ["dmd", "d d", "ddd"], ["ddd", "d d", "ddd"], ["ddd", "ded", "ddd"]])

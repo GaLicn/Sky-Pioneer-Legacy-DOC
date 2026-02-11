@@ -352,4 +352,86 @@ ServerEvents.recipes(event => {
     }
     )
 
+    //能量电池
+    event.shaped('1x integrateddynamics:energy_battery', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ], {
+        A: 'naturesaura:sky_ingot',
+        B: 'minecraft:iron_block',
+        C: 'minecraft:redstone_block',
+    })
+
+    //微型流体输入舱
+    event.shaped('1x modular_machinery_reborn:fluidinputhatch_tiny', [
+        'AAA',
+        'BCB',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'kubejs:stone_gear',
+        C: 'minecraft:bucket'
+    })
+    event.shapeless('1x modular_machinery_reborn:fluidinputhatch_tiny', [
+        '1x modular_machinery_reborn:fluidoutputhatch_tiny'
+    ])
+
+    //微型流体输出舱
+    event.shapeless('1x modular_machinery_reborn:fluidoutputhatch_tiny', [
+        '1x modular_machinery_reborn:fluidinputhatch_tiny'
+    ])
+
+    //小型流体输入舱
+    event.shaped('1x modular_machinery_reborn:fluidinputhatch_small', [
+        ' A ',
+        'BCB',
+        'DBD'
+    ], {
+        A: 'minecraft:hopper',
+        B: 'naturesaura:sky_ingot',
+        C: 'modular_machinery_reborn:fluidinputhatch_tiny',
+        D: 'minecraft:bucket'
+    })
+    event.shapeless('1x modular_machinery_reborn:fluidinputhatch_small', [
+        '1x modular_machinery_reborn:fluidoutputhatch_small'
+    ])
+
+    //小型流体输出舱
+    event.shapeless('1x modular_machinery_reborn:fluidoutputhatch_small', [
+        '1x modular_machinery_reborn:fluidinputhatch_small'
+    ])
+
+    //标准流体输入舱
+    event.shaped('1x modular_machinery_reborn:fluidinputhatch_normal', [
+        ' A ',
+        'BCB',
+        'DBD'
+    ], {
+        A: 'naturesaura:grated_chute',
+        B: 'naturesaura:sky_ingot',
+        C: 'modular_machinery_reborn:fluidinputhatch_small',
+        D: 'minecraft:bucket'
+    })
+    event.shapeless('1x modular_machinery_reborn:fluidinputhatch_normal', [
+        '1x modular_machinery_reborn:fluidoutputhatch_normal'
+    ])
+
+    //标准流体输出舱
+    event.shapeless('1x modular_machinery_reborn:fluidoutputhatch_normal', [
+        '1x modular_machinery_reborn:fluidinputhatch_normal'
+    ])
+
+    //焦炉
+    event.shapeless('1x modular_machinery_reborn:controller[modular_machinery_reborn:machine="modular_machinery_reborn:cook_oven"]', [
+        '1x immersiveengineering:cokebrick'
+    ])
+
+    //高草丛
+    event.shaped('1x minecraft:tall_grass', [
+        ' A ',
+        ' A '
+    ], {
+        A: 'minecraft:short_grass'
+    })
 })

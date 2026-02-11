@@ -335,4 +335,20 @@
             id: 'kubejs:clean_void_matter_block'
         }
     })
+
+    //粘土
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'minecraft:sand'
+        },
+        input_fluid: {
+            id: 'minecraft:water',
+            amount: 1000
+        },
+        output_item: {
+            id: 'minecraft:clay'
+        },
+        duration: 40
+    })
 })

@@ -1,7 +1,7 @@
 MMREvents.machines(event => {
     // 原始虚空物质采集器
     event.create("modular_machinery_reborn:primitive_void_collector")
-        .color("#FF2D0052")
+        .color("#FF8000FF")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([

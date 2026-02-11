@@ -2,13 +2,19 @@
 	chapter.0D2D3672C754406A.title: "序章"
 	chapter.115E6A96805BC36E.title: "第一章"
 	chapter.5AECF03C286C1BFD.title: "欢迎"
+	chapter.7C29D5227DBDF8BF.title: "第二章"
 	chapter_group.2DF914C1FE391B4B.title: "主线"
 	quest.131FCF0A194CDF86.quest_desc: ["通过充分咀嚼木砖获得"]
 	quest.1A147582A909CE87.quest_desc: ["另类的骨粉"]
 	quest.1A4A12EBE8AEE967.quest_desc: ["放到自然祭坛上补充灵气"]
+	quest.62BDE390F78517CA.quest_desc: ["成型后，每tick消耗世界中的128灵气转化成128rf"]
 	quest.650AE1B9E0B8821F.quest_desc: ["这里是一套自动补充灵气的解决方案"]
+	quest.7867B9F2035CDF2E.quest_desc: ["可以使用全能扳手使结构成型"]
 	quest.7CDC907DB97221E9.quest_desc: ["手持灵气魔杖对着干净的虚空物质块右键即可生产20000灵气"]
 	task.054899A7411E46F7.title: "开始的开始"
+	task.0FC9113CB206D82F.title: "观察成型后的焦炉"
+	task.37B5448EC60CED50.title: "一些妙妙工具"
+	task.41175611AC885CBD.title: "介绍"
 	task.46B5DD219E4752C1.title: "欢迎"
 	task.7F18F606ECEBC8B1.title: "说明"
 }

@@ -27,4 +27,14 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'modular_machinery_reborn:outputbus_small' })//小型输出总线
     event.remove({ output: 'naturesaura:token_anger' })//愤怒印记
     event.remove({ output: 'naturesaura:token_sorrow' })//悲伤印记
+    event.remove({ type: 'integrateddynamics:drying_basin', output: 'minecraft:coarse_dirt' })//砂土
+    event.remove({ type: 'integrateddynamics:mechanical_drying_basin', output: 'minecraft:coarse_dirt' })//砂土
+    event.remove({ output: 'actuallyadditions:coal_generator' })//煤炭发电机
+    event.remove({ output: 'integrateddynamics:energy_battery' })//能量电池
+    event.remove({ output: 'modular_machinery_reborn:fluidinputhatch_tiny' })//微型流体输入舱
+    event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch_tiny' })//微型流体输出舱
+    event.remove({ output: 'modular_machinery_reborn:fluidinputhatch_small' })//小型流体输入舱
+    event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch_small' })//小型流体输出舱
+    event.remove({ output: 'modular_machinery_reborn:fluidinputhatch' })//标准流体输入舱
+    event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch' })//标准流体输出舱
 })

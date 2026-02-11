@@ -1,0 +1,127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C29D5227DBDF8BF"
+	group: "2DF914C1FE391B4B"
+	icon: {
+		id: "immersiveengineering:workbench"
+	}
+	id: "7C29D5227DBDF8BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["62BDE390F78517CA"]
+			id: "54CCB8ACD19104F0"
+			size: 1.5d
+			tasks: [{
+				id: "36DED3E859B65FF6"
+				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54CCB8ACD19104F0"]
+			id: "3520A16BAFE83917"
+			tasks: [{
+				count: 4L
+				id: "582E42135EEDF6C6"
+				item: { count: 1, id: "minecraft:clay" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3520A16BAFE83917"]
+			id: "7867B9F2035CDF2E"
+			tasks: [
+				{
+					count: 27L
+					id: "72C8CE7904A651D7"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					id: "2A5098F810534652"
+					item: { components: { "minecraft:custom_data": { ToolMode: "wrench" } }, count: 1, id: "omnitools:omni_wrench" }
+					type: "item"
+				}
+				{
+					id: "0FC9113CB206D82F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:coke_oven"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54CCB8ACD19104F0"]
+			id: "5389CA07A781920B"
+			tasks: [{
+				id: "0C3B3992C75B0707"
+				item: { count: 1, id: "minecraft:magma_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5389CA07A781920B"]
+			id: "3EE51FBEAF1DE8FB"
+			tasks: [
+				{
+					count: 27L
+					id: "3E71309B41CC6E7F"
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+				{
+					id: "4B7BD09189A653C5"
+					item: { components: { "minecraft:custom_data": { ToolMode: "wrench" } }, count: 1, id: "omnitools:omni_wrench" }
+					type: "item"
+				}
+				{
+					id: "5B7A9C8CB19E91DB"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:blast_furnace"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7867B9F2035CDF2E"
+				"3EE51FBEAF1DE8FB"
+			]
+			id: "2482D11EC27E3D3C"
+			tasks: [{
+				id: "3FF212B26676C0BC"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2482D11EC27E3D3C"]
+			id: "79436F6B145289F4"
+			tasks: [{
+				count: 8L
+				id: "3B5CBBBF5066C696"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+}

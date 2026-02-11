@@ -12,5 +12,62 @@
 	id: "5AECF03C286C1BFD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "58CDD3186E1C6AFC"
+			tasks: [{
+				id: "41175611AC885CBD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58CDD3186E1C6AFC"]
+			id: "2F3E4B778976A906"
+			rewards: [
+				{
+					id: "177F926D48DEE6B9"
+					item: {
+						count: 1
+						id: "omnitools:omni_wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "47BA591D894FB79B"
+					item: {
+						count: 1
+						id: "pipez:item_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "49E7D82151B8436F"
+					item: {
+						count: 1
+						id: "pipez:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "702666777C2AE8B7"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37B5448EC60CED50"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
 }
