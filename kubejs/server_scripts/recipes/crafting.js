@@ -447,4 +447,25 @@ ServerEvents.recipes(event => {
         D: 'immersiveengineering:treated_fence',
     }
     )
+
+    //铁齿轮
+    event.shaped('1x kubejs:iron_gear', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+        A: 'minecraft:iron_ingot'
+    })
+
+    //电动挤压机
+    event.shaped('1x integrateddynamics:mechanical_squeezer', [
+        ' A ',
+        'CBC',
+        ' D '
+    ], {
+        A: 'kubejs:iron_gear',
+        B: 'integrateddynamics:squeezer',
+        C: 'integrateddynamics:energy_battery',
+        D: 'minecraft:obsidian'
+    })
 })

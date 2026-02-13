@@ -351,4 +351,20 @@
         },
         duration: 40
     })
+
+    //铜锭
+    event.custom({
+        type: 'integrateddynamics:mechanical_drying_basin',
+        input_item: {
+            item: 'kubejs:faded_tainted_gold',
+        },
+        input_fluid: {
+            id: 'minecraft:lava',
+            amount: 1000
+        },
+        output_item: {
+            id: 'minecraft:copper_ingot'
+        },
+        duration: 40
+    })
 })

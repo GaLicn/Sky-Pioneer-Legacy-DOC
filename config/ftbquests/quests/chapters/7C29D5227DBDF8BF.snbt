@@ -123,5 +123,28 @@
 			x: 4.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["79436F6B145289F4"]
+			id: "6569C45149ECB848"
+			tasks: [{
+				id: "1B2127FA3AF5E9C5"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54CCB8ACD19104F0"]
+			id: "5B08D451B4D8DCF0"
+			size: 2.0d
+			tasks: [{
+				id: "0D755A9C49078DEA"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
 	]
 }

@@ -38,4 +38,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'modular_machinery_reborn:fluidinputhatch' })//标准流体输入舱
     event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch' })//标准流体输出舱
     event.remove({ output: 'immersiveengineering:workbench' })//工程师工作台
+    event.remove({ output: 'immersiveengineering:rs_engineering' })//红石工程块
+    event.remove({ output: 'immersiveengineering:light_engineering' })//轻型工程块
+    event.remove({ output: 'immersiveengineering:heavy_engineering' })//重型工程块
+    event.remove({ output: 'integrateddynamics:mechanical_squeezer' })//电动挤压机
+    event.remove({ id: 'immersiveengineering:crafting/component_iron' })//铁机械零件
+    event.remove({ id: 'immersiveengineering:crafting/component_steel' })//钢机械零件
 })
