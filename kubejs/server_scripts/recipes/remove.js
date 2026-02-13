@@ -37,4 +37,5 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch_small' })//小型流体输出舱
     event.remove({ output: 'modular_machinery_reborn:fluidinputhatch' })//标准流体输入舱
     event.remove({ output: 'modular_machinery_reborn:fluidoutputhatch' })//标准流体输出舱
+    event.remove({ output: 'immersiveengineering:workbench' })//工程师工作台
 })

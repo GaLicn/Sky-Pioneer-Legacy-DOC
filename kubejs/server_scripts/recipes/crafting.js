@@ -434,4 +434,17 @@ ServerEvents.recipes(event => {
     ], {
         A: 'minecraft:short_grass'
     })
+
+    //工程师工作台
+    event.shaped('1x immersiveengineering:workbench', [
+        '   ',
+        'ABB',
+        'C D'
+    ], {
+        A: 'immersiveengineering:ingot_steel',
+        B: '#immersiveengineering:treated_wood_slab',
+        C: 'immersiveengineering:craftingtable',
+        D: 'immersiveengineering:treated_fence',
+    }
+    )
 })
