@@ -66,4 +66,13 @@ ServerEvents.recipes(event => {
             count: 4
         }
     })
+
+    //冲压机
+    event.custom({
+        type: 'immersiveengineering:metal_press',
+        energy: 2400,
+        mold: 'immersiveengineering:mold_packing_9',
+        input: { item: 'minecraft:iron_ingot' },
+        result: { item: 'minecraft:redstone', count: 1 }
+    })
 })

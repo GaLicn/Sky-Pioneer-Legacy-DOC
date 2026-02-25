@@ -696,8 +696,145 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
+			x: 31.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4A4B6CF7AF2D73EB"]
+			id: "1F2EC9A5C3C2C109"
+			rewards: [
+				{
+					id: "64F9EAD96A44A56F"
+					item: {
+						count: 1
+						id: "minecraft:azure_bluet"
+					}
+					type: "item"
+				}
+				{
+					id: "72EA8CEB3D243A6F"
+					item: {
+						count: 1
+						id: "minecraft:dandelion"
+					}
+					type: "item"
+				}
+				{
+					id: "348227FB0136CF4F"
+					item: {
+						count: 1
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+				{
+					id: "65B4EE8811526C47"
+					item: {
+						count: 1
+						id: "minecraft:lily_of_the_valley"
+					}
+					type: "item"
+				}
+				{
+					id: "5B52CE4E806A837E"
+					item: {
+						count: 1
+						id: "minecraft:allium"
+					}
+					type: "item"
+				}
+				{
+					id: "5486A81B14017C2B"
+					item: {
+						count: 1
+						id: "minecraft:blue_orchid"
+					}
+					type: "item"
+				}
+				{
+					id: "0AA4EB60B7559488"
+					item: {
+						count: 1
+						id: "minecraft:poppy"
+					}
+					type: "item"
+				}
+				{
+					id: "7861BFAB00015219"
+					item: {
+						count: 1
+						id: "minecraft:orange_tulip"
+					}
+					type: "item"
+				}
+				{
+					id: "5EA72DE615409AC1"
+					item: {
+						count: 1
+						id: "minecraft:pink_tulip"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "4DE5B4FD7B86658B"
+					item: { components: { "modular_machinery_reborn:machine": "modular_machinery_reborn:greenhouse" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "39F6E357E5D329BE"
+					item: { count: 1, id: "minecraft:short_grass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "399C231820D990B2"
+					item: { count: 1, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					count: 57L
+					id: "3B9305B65D9D2812"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7544FC44F3A7EE5B"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 35.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BDFA8277C84CD77"]
+			id: "28FA79DE111B729D"
+			size: 1.5d
+			tasks: [
+				{
+					id: "69F5D0C404E5D865"
+					item: { count: 1, id: "rftoolsutility:timer" }
+					type: "item"
+				}
+				{
+					id: "79F432534D84C707"
+					item: { count: 1, id: "integrateddynamics:squeezer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A77F34DAB530574"
+					item: { count: 1, id: "minecraft:armor_stand" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 14.0d
 		}
 	]
 }

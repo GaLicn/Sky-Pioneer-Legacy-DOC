@@ -146,5 +146,114 @@
 			x: -4.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["6569C45149ECB848"]
+			id: "7E24AFE2F85F3C52"
+			tasks: [
+				{
+					id: "15A996F11048B54E"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "46180E7F25B8942A"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "6457602A847F8212"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E24AFE2F85F3C52"]
+			icon: {
+				id: "immersiveengineering:metal_press"
+			}
+			id: "69B7B02B1AEC7505"
+			tasks: [
+				{
+					id: "6B169327FC14373A"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "6A496B610CE999D4"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "4C8AA6C3DD015E8C"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6CDDC8C6C636F336"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02B6C4A8DACE3CF3"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69B7B02B1AEC7505"]
+			id: "22915B9C12AD6569"
+			tasks: [
+				{
+					id: "6C61002CEF8F3C5B"
+					item: { count: 1, id: "immersiveengineering:stick_steel" }
+					type: "item"
+				}
+				{
+					id: "7642EFBB2DFD8F46"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"22915B9C12AD6569"
+				"7E24AFE2F85F3C52"
+			]
+			icon: {
+				id: "immersiveengineering:mixer"
+			}
+			id: "493626091628BDB9"
+			tasks: [{
+				id: "711559D5866006AA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:mixer"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["493626091628BDB9"]
+			id: "0B4C4BE20F82A5C4"
+			tasks: [{
+				id: "188BFA0CAED3CC66"
+				item: { count: 1, id: "immersiveengineering:redstone_acid_bucket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
 	]
 }

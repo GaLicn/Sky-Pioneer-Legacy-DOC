@@ -7,8 +7,12 @@
 	quest.131FCF0A194CDF86.quest_desc: ["通过充分咀嚼木砖获得"]
 	quest.1A147582A909CE87.quest_desc: ["另类的骨粉"]
 	quest.1A4A12EBE8AEE967.quest_desc: ["放到自然祭坛上补充灵气"]
+	quest.1F2EC9A5C3C2C109.quest_desc: ["用于自动化获取农作物"]
+	quest.28FA79DE111B729D.quest_desc: ["可以使用盔甲架+计时器来实现挤压机的自动化"]
+	quest.493626091628BDB9.title: "搅拌机"
 	quest.62BDE390F78517CA.quest_desc: ["成型后，每tick消耗世界中的128灵气转化成128rf"]
 	quest.650AE1B9E0B8821F.quest_desc: ["这里是一套自动补充灵气的解决方案"]
+	quest.69B7B02B1AEC7505.title: "金属冲压机"
 	quest.7867B9F2035CDF2E.quest_desc: ["可以使用全能扳手使结构成型"]
 	quest.7CDC907DB97221E9.quest_desc: ["手持灵气魔杖对着干净的虚空物质块右键即可生产20000灵气"]
 	task.054899A7411E46F7.title: "开始的开始"

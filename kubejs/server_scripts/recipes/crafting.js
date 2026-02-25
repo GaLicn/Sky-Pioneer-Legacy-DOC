@@ -468,4 +468,16 @@ ServerEvents.recipes(event => {
         C: 'integrateddynamics:energy_battery',
         D: 'minecraft:obsidian'
     })
+
+    //温室
+    event.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="modular_machinery_reborn:greenhouse"]', [
+        'AAA',
+        'BCB',
+        'DDD'
+    ], {
+        A: 'kubejs:compressed_oak_planks',
+        B: 'naturesaura:sky_ingot',
+        C: 'kubejs:naturesaura_core',
+        D: 'minecraft:dirt'
+    })
 })

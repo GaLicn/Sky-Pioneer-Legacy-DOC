@@ -44,4 +44,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'integrateddynamics:mechanical_squeezer' })//电动挤压机
     event.remove({ id: 'immersiveengineering:crafting/component_iron' })//铁机械零件
     event.remove({ id: 'immersiveengineering:crafting/component_steel' })//钢机械零件
+    event.remove({ id: 'immersiveengineering:crafting/stick_steel' })//钢棒
+    event.remove({ id: 'immersiveengineering:crafting/stick_iron' })//铁棒
+    event.remove({ id: 'immersiveengineering:crafting/redstone_acid' })//红石酸
 })
