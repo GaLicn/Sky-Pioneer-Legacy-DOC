@@ -26,5 +26,9 @@ StartupEvents.registry('item', event => {
     event.create('mixed_powder')
     event.create('void_matter_dust')
     event.create('iron_gear')
+    event.create('invar_ingot')
+    event.create('enderium_ingot')
+    event.create('signalum_ingot')
+    event.create('lumium_ingot')
 })
 
