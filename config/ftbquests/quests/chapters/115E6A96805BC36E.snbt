@@ -141,6 +141,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["099BF1F11FF968CC"]
 			id: "342133EA86EAED77"
 			tasks: [{
 				id: "1E5F9C6E1D749F9C"
@@ -179,6 +180,7 @@
 			]
 			id: "5434429E10BBC1CC"
 			tasks: [{
+				count: 16L
 				id: "77BA5D389793DAA8"
 				item: { count: 1, id: "naturesaura:infused_iron" }
 				type: "item"
@@ -338,18 +340,21 @@
 				item: { count: 1, id: "kubejs:clean_void_matter_ingot" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 25.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["076F0A04AF5BD9F7"]
+			dependencies: [
+				"076F0A04AF5BD9F7"
+				"18D4E47B05BF9FF6"
+			]
 			id: "6B4CD18D1B587E59"
 			tasks: [{
 				id: "49C13278013AD4FB"
 				item: { count: 1, id: "naturesaura:tainted_gold" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 28.0d
 			y: -3.0d
 		}
 		{
@@ -360,14 +365,11 @@
 				item: { count: 1, id: "kubejs:faded_tainted_gold" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 31.0d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"44652087A1FE024A"
-				"18D4E47B05BF9FF6"
-			]
+			dependencies: ["44652087A1FE024A"]
 			id: "558A4AF6AE782B1F"
 			size: 2.0d
 			tasks: [{
@@ -375,8 +377,8 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: -3.0d
+			x: 31.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -393,15 +395,15 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["70B4586313C04668"]
+			dependencies: ["275D08A7CECB3A3D"]
 			id: "42222F3089A9B7C9"
 			tasks: [{
 				id: "40142F76CCB2C896"
 				item: { count: 1, id: "kubejs:clean_void_matter_dust" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["42222F3089A9B7C9"]
@@ -415,14 +417,14 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["275D08A7CECB3A3D"]
+			dependencies: ["42222F3089A9B7C9"]
 			id: "650AE1B9E0B8821F"
 			tasks: [{
 				id: "4C279A326CC97B27"
 				item: { count: 1, id: "naturesaura:aura_cache" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -434,8 +436,8 @@
 				item: { components: { "naturesaura:aura_data": { aura_amount: 400000 } }, count: 1, id: "naturesaura:aura_cache" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1A4A12EBE8AEE967"]
@@ -445,8 +447,8 @@
 				item: { count: 1, id: "kubejs:aura_wand" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: 13.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["275D08A7CECB3A3D"]
@@ -818,7 +820,7 @@
 			tasks: [
 				{
 					id: "69F5D0C404E5D865"
-					item: { count: 1, id: "rftoolsutility:timer" }
+					item: { components: { "ftbquests:missing_item": "rftoolsutility:timer" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -835,6 +837,20 @@
 			]
 			x: 21.0d
 			y: 14.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4E8806124ECEBA65"]
+			dependency_requirement: "all_started"
+			id: "099BF1F11FF968CC"
+			tasks: [{
+				count: 16L
+				id: "6BE718E467AEC362"
+				item: { count: 1, id: "naturesaura:infused_stone" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 	]
 }
